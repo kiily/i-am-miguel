@@ -1,0 +1,34 @@
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+}
+
+.content-container {
+    padding: 0 32px;
+}
+
+.content-container > h2 {
+    font-size: 5rem;
+}
+
+.content-container > h1 {
+    font-size: 5rem;
+}
+
+.content-container > h2.jp {
+    font-size: 3.5rem;
+}
+
+.content-container > h1.jp {
+    font-size: 3.5rem;
+}
+

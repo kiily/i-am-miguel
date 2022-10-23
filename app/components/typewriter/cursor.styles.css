@@ -1,0 +1,21 @@
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+[data-cursor] {
+    position: relative;
+    left: 3px;
+    top: 0;
+    animation-name: blink;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    opacity: 1;
+}

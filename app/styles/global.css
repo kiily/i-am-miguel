@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "lato";
+    src: url("/fonts/lato/lato.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+:root {
+    --font-body: -apple-system, "Segoe UI", Helvetica Neue, Helvetica,
+    Roboto, Arial, sans-serif, system-ui, "Apple Color Emoji",
+    "Segoe UI Emoji";
+    --font-display: baloo, var(--font-body);
+}
+
+body {
+    font-family: var(--font-body);
+    background: #E8E4E3;
+    color: #403E3D;
+}
